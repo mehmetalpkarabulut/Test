@@ -6,6 +6,7 @@ COPY package.json .
 RUN npm install
 
 COPY index.js .
+COPY appsettings.json .
 
 EXPOSE 3000
 
